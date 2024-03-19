@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="dom"></p>
+
+
+
+    <script>
+        //array splice
+        var array1 = ["cat","dog","lion","animal"];
+        array1.splice(2,1,"cow")
+        document.getElementById("dom").innerHTML=array1;
+
+
+
+        let array2 =["orange","apple","mango","banana"];
+        let array3=array2.slice(2)
+        document.getElementById("dom").innerHTML=array3;
+
+    </script>
+</body>
+</html>
